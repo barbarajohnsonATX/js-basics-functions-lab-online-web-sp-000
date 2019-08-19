@@ -2,10 +2,11 @@
 function distanceFromHqInBlocks(location)
 {
   let distanceInBlocks = Math.abs(location - 42);
-  return distance_in_blocks;
+  return distanceInBlocks;
 }
 
 function distanceFromHqInFeet(location)
 {
-  let distance_in_feet 
+  let distanceInFeet = distanceFromHqInFeet(location) * 264;
+  return distanceInFeet;
 }
