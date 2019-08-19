@@ -4,3 +4,8 @@ function distanceFromHqInBlocks(location)
   let distance = Math.abs(location - 42);
   return distance;
 }
+
+function distanceFromHqInFeet(location)
+{
+  
+}
