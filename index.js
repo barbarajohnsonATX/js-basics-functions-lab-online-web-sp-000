@@ -31,5 +31,8 @@ function calculatesFarePrice(start, destination)
     return fare = 25;
   }
   
-  else if ()
+  else if (distanceInFeet >= 400 && distanceInFeet < 2000)
+  {
+    return fare = 0.02 * distanceInFeet;
+  }
 }
