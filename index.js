@@ -35,4 +35,6 @@ function calculatesFarePrice(start, destination)
   {
     return 0.02 * (distanceInFeet - 400);
   }
+  
+  else if (distanceInFeet)
 }
