@@ -14,7 +14,7 @@ function distanceFromHqInFeet(location)
 function distanceTravelledInFeet(start, end)
 {
   let distanceInFeet = distanceFromHqInFeet(end) - distanceFromHqInFeet(start);
-  return distanceInFeet;
+  return Math.abs(distanceInFeet);
 }
 
 function calculatesFarePrice(start, destination)
