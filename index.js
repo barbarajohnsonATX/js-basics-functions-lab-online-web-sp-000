@@ -11,7 +11,8 @@ function distanceFromHqInFeet(location)
   return distanceInFeet;
 }
 
-function distanceTravelledInFeet(location)
+function distanceTravelledInFeet(start, end)
 {
-  
+  let distanceInFeet = distanceFromHqInFeet(end) - distanceFromHqInFeet(start);
+  return distanceInFeet;
 }
