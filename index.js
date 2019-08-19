@@ -1,6 +1,6 @@
 // Code your solution in this file!
 function distanceFromHqInBlocks(location)
 {
-  let distance = location - 42;
+  let distance = Math.absolutelocation - 42;
   return distance;
 }
