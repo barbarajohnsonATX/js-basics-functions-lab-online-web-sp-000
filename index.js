@@ -25,8 +25,10 @@ function calculatesFarePrice(start, destination)
   {
     case (> 2500):
       return "cannot travel that far";
+      
   }
   
+  /*
   if (distanceInFeet > 2500)
   {
     return "cannot travel that far";
